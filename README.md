@@ -39,32 +39,36 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## 本アプリケーションについて
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+本アプリケーションは出社した際の通勤費の入力をスマートに行うのを目的に作成しました．
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 画面構成について
+![画像1](Images/Image1.png)
+### 基本的な画面概要です．
+1. 今日の日付に移動します．今日の日付には色がついています．
+2. 月を移動できます．
+3. 片道分の交通費を入力してください．何も入力しなければ0円となります．
+4. 表示月の出社情報が表示されます．
+5. 登録した全ての出社情報が削除されます．
+6. 全ての日付で出社情報の登録ができます．
 
-### Code Splitting
+![画像2](Images/Image2.png)
+### 出社情報を登録するモーダルです．
+7. 交通費が入力されます．片道分の交通費を入力していると，自動的に往復通勤費が入力されます，
+8. キャンセルボタンです．
+9. 出社情報を登録できます．
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![画像3](Images/Image3.png)
+### 表示されている月に登録した出社情報を表示するモーダルです．
+10. 入力した全ての出社情報について出力され，それぞれの項目ごとをクリップボードにコピーすることができます．
 
-### Analyzing the Bundle Size
+![画像11](Images/Image4.png)
+### 全ての出社情報を削除する際に表示するモーダルです．
+11. キャンセルボタンです．
+12. 全ての出社情報を削除します．
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![画像5](Images/Image5.png)
+### 登録した出社情報を編集するモーダルです．
+13. 選択した日付の出社情報を削除します．
+14. 交通費を編集できます．
