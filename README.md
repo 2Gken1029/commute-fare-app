@@ -2,7 +2,7 @@
 本アプリケーションは出社した際の通勤費の入力をスマートに行うのを目的に作成しました．
 
 ## 実際のサイト
-![通勤情報記録アプリ](https://commute-fare-app.netlify.app/)
+[通勤情報記録アプリ](https://commute-fare-app.netlify.app/)
 
 ## 画面構成について
 ### 基本的な画面構成です．
