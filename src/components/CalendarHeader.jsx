@@ -11,7 +11,6 @@ export const CalendarHeader = (props) => {
     defaultTransportationExpenses, 
     setDefaultTransportationExpenses, 
     savedEvents, 
-    dispatchCalEvent,
     setShowOutputModal,
     setShowAllDeleteModal
   } = useContext(GlobalContext);
